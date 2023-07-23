@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+#container{
+    border: 1px solid gray;
+    width : 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+.cell{
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    /* width: 20px; */
+    /* height: 20px; */
+    margin: 1.0px;
+    padding: 0;
+}
+.row{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
